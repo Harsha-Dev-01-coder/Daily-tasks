@@ -1,0 +1,9 @@
+.card {
+    width: 400px;
+    height: 600px;
+    background: lightblue;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}

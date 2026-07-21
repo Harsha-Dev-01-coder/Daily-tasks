@@ -1,0 +1,9 @@
+.card {
+    width: 400px;
+    height: 600px;
+    background: lightblue;
+}
+
+.card:hover {
+    transform: skew(-20deg);
+}
