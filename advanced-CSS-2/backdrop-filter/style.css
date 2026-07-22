@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, #67b3cd, #570e85);
+}
+
+.glass {
+    width: 300px;
+    padding: 20px;
+    background: rgba(217, 205, 205, 0.132);
+    border: 1px solid rgba(139, 110, 110, 0.3);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    color: white;
+}
