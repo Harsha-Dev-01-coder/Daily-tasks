@@ -1,0 +1,25 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.child {
+    background: steelblue;
+    color: white;
+    padding: 20px;
+}
+
+/* Only this child becomes another grid */
+.nested-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.box {
+    background: tomato;
+    padding: 20px;
+    text-align: center;
+}
